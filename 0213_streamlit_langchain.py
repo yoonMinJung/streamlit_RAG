@@ -6,13 +6,6 @@
 # 
 # - 참고: https://www.youtube.com/watch?v=xYNYNKJVa4E (모두의AI 짱!)
 
-# In[2]:
-
-
-from IPython.display import Image
-Image("RAG 구조.png")
-
-
 # pip install streamlit
 
 # pip install tiktoken
