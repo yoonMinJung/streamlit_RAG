@@ -43,6 +43,12 @@
 # ### FAISS
 # - 임시로 벡터를 저장하는 벡터 스토어 
 
+# In[ ]:
+
+
+pip install openpyxl
+
+
 # In[1]:
 
 
@@ -58,7 +64,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.document_loaders import PyPDFLoader
 from langchain.document_loaders import Docx2txtLoader
 from langchain.document_loaders import UnstructuredPowerPointLoader
-from langchain.document_loaders import UnstructuredExcelLoader
+from langchain_community.document_loaders import UnstructuredExcelLoader
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
