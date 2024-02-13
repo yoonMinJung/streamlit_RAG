@@ -98,7 +98,7 @@ def main():
     # with문: 어떤 구성 요소 안에 하위 구성 요소들이 집행돼야하는 경우에 활용됨
     # 사이드 바를 만드는 코드
     with st.sidebar:
-        uploaded_files =  st.file_uploader("Upload your file",type=['pdf','docx'],accept_multiple_files=True # file_uploader: 파일 업로더 기능을 넣음
+        uploaded_files =  st.file_uploader("Upload your file",type=['pdf','docx'],accept_multiple_files=True) # file_uploader: 파일 업로더 기능을 넣음
         openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password") # text_input: 오픈AI의 API를 작성하도록 함
         process = st.button("Process") # button: 버튼을 만듦
 
