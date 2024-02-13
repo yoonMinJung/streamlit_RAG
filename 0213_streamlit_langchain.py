@@ -50,6 +50,8 @@ import streamlit as st
 import tiktoken
 from loguru import logger
 
+import pandas as pd
+
 from langchain.chains import ConversationalRetrievalChain
 from langchain.chat_models import ChatOpenAI
 
