@@ -81,7 +81,7 @@ def main():
     page_title="MJ_Chat", # 웹페이지 탭 이름
     page_icon=":heart-pulse:") # 웹페이지 탭 아이콘, :쓰면 아이콘이 들어간다
 
-    st.title("_물어보세요! :red[QA Chat Bot]_ :robot:") # 웹페이지 제목, _를 쓰면 기울기체로 된다
+    st.title("_물어보세요! :red[QA Chat Bot]_ 🤖") # 웹페이지 제목, _를 쓰면 기울기체로 된다
 
     ### 1
     # session_state.conversation라는 변수를 사용하기 위해서 이런 식으로 정의를 해줘야함
@@ -118,7 +118,7 @@ def main():
     ### 2 
     if 'messages' not in st.session_state: # 먼저 아래와 같은 문구를 출력함으로써, UI적으로 친숙한 화면을 만들 수 있음
         st.session_state['messages'] = [{"role": "assistant", 
-                                        "content": "안녕하세요! 사이드 바에 문서를 넣은 후, 해당 문서에 대해 궁금하신 것이 있으면 언제든 물어봐주세요😃 미리 OPENAI의 API를 넣어야한다는 점 잊지마세요!"}]
+                                        "content": "안녕하세요! 사이드 바에 문서를 넣은 후, 해당 문서에 대해 궁금한 것을 물어보세요😃 어떤 파일 유형이든 다 읽을 수 있어요! 단, 먼저 OPENAI의 API를 넣어야한다는 점 잊지마세요!"}]
 
     # 어떤 역할을 맡은 아이콘을 함께 표시를 해주고, 컨테이너 안에 content에 해당하는 텍스트를 적기 위함 
     # 한 번 메세지가 입력될때마다, 하나의 content로 엮음
