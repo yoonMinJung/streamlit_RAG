@@ -43,12 +43,6 @@
 # ### FAISS
 # - 임시로 벡터를 저장하는 벡터 스토어 
 
-# In[ ]:
-
-
-pip install openpyxl
-
-
 # In[1]:
 
 
